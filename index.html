@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Home Interactive — Forest Edition 🌲✨</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene-wrapper">
+	<div class="nft-card" id="card">
+	  <!-- Starry night sky -->
+	  <div class="stars" id="stars"></div>
+	  <div class="celestial" id="celestial" title="Toggle Day / Night"></div>
+	  <div class="cloud cloud-1"></div>
+
+	  <!-- Far background: dense pine forest silhouettes and mist -->
+	  <div class="forest-back">
+		<div class="distant-pine dp-1"></div>
+		<div class="distant-pine dp-2"></div>
+		<div class="distant-pine dp-3"></div>
+		<div class="distant-pine dp-4"></div>
+		<div class="distant-pine dp-5"></div>
+		<div class="distant-pine dp-6"></div>
+		<div class="distant-pine dp-7"></div>
+		<div class="forest-mist"></div>
+	  </div>
+
+	  <!-- Midground: detailed interactive pine trees -->
+	  <div class="forest-mid" id="forestMid">
+		<div class="pine-tree pt-1" title="Tap to shake needles!">
+		  <div class="pine-trunk"></div>
+		  <div class="tier tier-4"></div>
+		  <div class="tier tier-3"><span class="pinecone pc-1"></span></div>
+		  <div class="tier tier-2"><span class="pinecone pc-2"></span></div>
+		  <div class="tier tier-1"></div>
+		  <div class="tree-particles"></div>
+		</div>
+		<div class="pine-tree pt-2" title="Tap to shake needles!">
+		  <div class="pine-trunk"></div>
+		  <div class="tier tier-4"></div>
+		  <div class="tier tier-3"><span class="pinecone pc-1"></span></div>
+		  <div class="tier tier-2"></div>
+		  <div class="tier tier-1"></div>
+		  <div class="tree-particles"></div>
+		</div>
+		<div class="pine-tree pt-3" title="Tap to shake needles!">
+		  <div class="pine-trunk"></div>
+		  <div class="tier tier-4"></div>
+		  <div class="tier tier-3"></div>
+		  <div class="tier tier-2"><span class="pinecone pc-2"></span></div>
+		  <div class="tier tier-1"></div>
+		  <div class="tree-particles"></div>
+		</div>
+		<div class="pine-tree pt-4" title="Tap to shake needles!">
+		  <div class="pine-trunk"></div>
+		  <div class="tier tier-4"></div>
+		  <div class="tier tier-3"><span class="pinecone pc-1"></span></div>
+		  <div class="tier tier-2"><span class="pinecone pc-2"></span></div>
+		  <div class="tier tier-1"></div>
+		  <div class="tree-particles"></div>
+		</div>
+	  </div>
+
+	  <!-- House -->
+	  <div class="house">
+		<div class="smoke-container" id="smoke">
+		  <div class="smoke"></div>
+		  <div class="smoke"></div>
+		  <div class="smoke"></div>
+		</div>
+		<div class="chimney" id="chimney" title="Toggle smoke"></div>
+
+		<!-- Bird -->
+		<div class="bird-wrapper" id="bird" title="Tap the bird!">
+		  <div class="bird-fx" id="birdFx">♪</div>
+		  <div class="bird-tail"></div>
+		  <div class="bird-body">
+			<div class="bird-belly"></div>
+			<div class="bird-cap"></div>
+		  </div>
+		  <div class="bird-wing"></div>
+		  <div class="bird-eye"></div>
+		  <div class="bird-beak"></div>
+		  <div class="bird-legs"></div>
+		</div>
+
+		<div class="roof"></div>
+
+		<div class="walls">
+		  <div class="window lit" id="window" title="Toggle light">
+			<div class="win-pane win-red"></div>
+			<div class="win-pane win-green"></div>
+			<div class="win-pane win-blue"></div>
+			<!-- Cat inside the yellow window pane -->
+			<div class="win-pane win-yellow">
+			  <div class="cat-silhouette">
+				<div class="cat-eyes">
+				  <div class="cat-eye"></div>
+				  <div class="cat-eye"></div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="door-frame" id="doorFrame">
+			<div class="door" id="door" title="Open/Close door"></div>
+		  </div>
+		</div>
+	  </div>
+
+	  <!-- Ground -->
+	  <div class="ground"></div>
+	</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
